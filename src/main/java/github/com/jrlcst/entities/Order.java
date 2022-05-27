@@ -15,7 +15,7 @@ import javax.persistence.Table;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 
-import github.com.jrlcst.entities.enu.OrderStatus;
+import github.com.jrlcst.entities.enums.OrderStatus;
 
 @Entity
 @Table(name = "tb_order")
